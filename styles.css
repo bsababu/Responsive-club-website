@@ -1,0 +1,213 @@
+body {
+    background-color:silver;
+}
+.container {
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-rows: 5fr 1fr 4fr 1fr;
+    row-gap: 5px;
+    width: 1400px;
+    height: 100%;
+}
+
+.container-1 {
+    display: flex;
+    background-image: url('./img/hd.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    /* justify-content: center; */
+    
+}
+
+.header-top {
+    width: 1000px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+#linkk {
+    text-align: center;
+    justify-content: space-around;
+    
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    background-color: #15546B;
+    padding-top: 25px;
+    
+}
+ nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 36px;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+     background-color: inherit;
+ }
+#welcome {
+    flex-direction: column;
+    justify-content: left;
+}
+#welcome h1{
+    font-family: cursive;
+    font-size: 42px;
+    color: black;
+    
+}
+
+span {
+    color: black;
+}
+
+#welcome button {
+    background-color: inherit;
+    box-sizing: border-box;
+    
+    border: none;
+    color: whitesmoke;
+    -webkit-appearance: none;
+    height: 70px;
+    width: 300px;
+}
+
+#welcome button:hover {
+    transition: all .3s ease-in-out;
+    background-color: #15546b;
+}
+
+.container-2 {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: #15546b;
+}
+
+.middle-address {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+#address-1 {
+    height: 220px;
+    
+}
+
+.container-3 {
+    display: flex;
+    
+}
+
+.programs {
+    display: flex;
+    padding-bottom: 200px;
+    text-align: center;
+    padding-top: 30px; 
+    flex-direction: column;
+    width: 100%;
+}
+
+#header-pro {
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+#pro-pro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.pro-1 {
+    border: 1px solid #15546B;
+    height: 340px;
+    width: 220px;
+    padding-right: 5px;
+    box-shadow: 2 2 11px rgba(33,33,33,.2); 
+}
+
+.pro-1:hover{
+    background-color: #15546b;
+    color: wheat;
+}
+
+.container-4 {
+    display: flex;
+}
+
+
+.images {
+    flex-flow: row;
+    justify-content: center;
+    width: 70%;
+}
+
+.images img:hover {
+ -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+    
+}
+
+.contact {
+    width: 30%;
+}
+.wrapper {
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .form-row {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+  }
+  .form-row > label {
+    padding: .5em 1em .5em 0;
+  }
+  .form-row > input {
+    flex: 1;
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+
+  .container-4 {
+      display: flex;
+  }
+
+  .images img{
+      height: 240px;
+      width: 220px;
+  }
+
+  .container-6 {
+      display: flex;
+  }
+
+  .footer {
+    background-color: black;
+    display: inline-flex;
+    color: wheat;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+  }
